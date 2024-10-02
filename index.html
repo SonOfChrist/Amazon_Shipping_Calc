@@ -8,13 +8,9 @@
 </head>
 <body>
     <p>Amazon Shipping Calculator</p>
-    <input class="js-cost-input cost-input" type="text" placeholder="Cost of Order" onkeydown="
-    handleCostKeyDown(event);
-    ">
-    <button onclick= "
-     calculateTotal();
-    " class="calculate-button" >Calculate</button>
-
+    
+    <input class="js-cost-input cost-input" type="text" placeholder="Cost of Order" onkeydown="handleCostKeyDown(event);">
+    <button onclick= "calculateTotal();" class="calculate-button" >Calculate</button>
     <p class="js-total-cost"></p>
     <script src="main.js"></script>
 </body>
