@@ -9,5 +9,5 @@ function calculateTotal() {
     if (cost < 40) {
         cost += 10
     }
-    document.querySelector('.js-total-cost'). innerHTML = `$${cost}`;
+    document.querySelector('.js-total-cost'). innerText = `$${cost}`;
 }
