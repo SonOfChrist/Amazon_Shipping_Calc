@@ -1,3 +1,3 @@
 # Amazon_Shipping_Cal
-- Always do maths using numbers never use strings
+- JS - Number() built in function for converting manually string into a number
  <img src="./images/ShippingCalculation.png" alt="Amazon_shipping_calc">
